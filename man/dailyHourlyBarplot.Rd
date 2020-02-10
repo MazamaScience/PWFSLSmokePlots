@@ -4,10 +4,19 @@
 \alias{dailyHourlyBarplot}
 \title{Create a Daily-Hourly plot for many monitors}
 \usage{
-dailyHourlyBarplot(ws_monitor, monitorIDs = NULL, tlim = NULL,
-  columns = 1, title = NULL, xLabel = NULL, yLabel = NULL,
-  includeLink = TRUE, hourlyDataType = "nowcast",
-  palette = "epa_aqi", includeThirdCol = FALSE)
+dailyHourlyBarplot(
+  ws_monitor,
+  monitorIDs = NULL,
+  tlim = NULL,
+  columns = 1,
+  title = NULL,
+  xLabel = NULL,
+  yLabel = NULL,
+  includeLink = TRUE,
+  hourlyDataType = "nowcast",
+  palette = "epa_aqi",
+  includeThirdCol = FALSE
+)
 }
 \arguments{
 \item{ws_monitor}{\emph{ws_monitor} object.}

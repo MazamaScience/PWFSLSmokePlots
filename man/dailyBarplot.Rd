@@ -4,9 +4,16 @@
 \alias{dailyBarplot}
 \title{Create a daily barplot for a single monitor}
 \usage{
-dailyBarplot(ws_monitor, startdate = NULL, enddate = NULL,
-  style = NULL, monitorID = NULL, currentNowcast = NULL,
-  currentPrediction = NULL, title = "")
+dailyBarplot(
+  ws_monitor,
+  startdate = NULL,
+  enddate = NULL,
+  style = NULL,
+  monitorID = NULL,
+  currentNowcast = NULL,
+  currentPrediction = NULL,
+  title = ""
+)
 }
 \arguments{
 \item{ws_monitor}{\emph{ws_monitor} object.}
@@ -56,7 +63,7 @@ NW <- PWFSLSmoke::Northwest_Megafires
 dailyBarplot(NW, "2015-07-01", "2015-10-01",
              style = "month",
              monitorID = "160690014_01",
-             title = "Daily Average PM2.5\\nRuebens, Idaho")
+             title = "Daily Average PM2.5\nRuebens, Idaho")
 }
 \seealso{
 \code{\link{dailyBarplotBase}}

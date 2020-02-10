@@ -4,12 +4,22 @@
 \alias{dailyBarplotBase}
 \title{Create a daily bar plot for a single monitor}
 \usage{
-dailyBarplotBase(ws_monitor, startdate = NULL, enddate = NULL,
-  colorPalette = aqiPalette("aqi"), ylimStyle = "auto",
-  borderColor = "black", borderSize = 1, currentNowcast = NULL,
-  currentPrediction = NULL, showAQIStackedBars = FALSE,
-  showAQILines = FALSE, showAQILegend = FALSE,
-  dateFormat = "\%b \%d", title = "")
+dailyBarplotBase(
+  ws_monitor,
+  startdate = NULL,
+  enddate = NULL,
+  colorPalette = aqiPalette("aqi"),
+  ylimStyle = "auto",
+  borderColor = "black",
+  borderSize = 1,
+  currentNowcast = NULL,
+  currentPrediction = NULL,
+  showAQIStackedBars = FALSE,
+  showAQILines = FALSE,
+  showAQILegend = FALSE,
+  dateFormat = "\%b \%d",
+  title = ""
+)
 }
 \arguments{
 \item{ws_monitor}{\emph{ws_monitor} object containing a single monitor.}
